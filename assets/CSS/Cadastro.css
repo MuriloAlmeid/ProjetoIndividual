@@ -1,0 +1,114 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ /*  header  */
+
+.navbar {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding-right: 5px;
+    height: 85px;
+}
+
+.lol {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.Texto {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 3%;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.Texto a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Video */
+
+.filtro{
+    background-color: black;
+}
+
+.vid {
+    display: flex;
+    height: 650px;
+    width: auto;
+    background-image: url(../img/lol_desktop_background_2x.jpg);
+    background-size: cover;
+    filter: opacity(70%);
+    align-items: center;
+    justify-content: center;
+}
+
+/* Caixa Formulario */
+
+.boxform {
+    color: black;
+    width: 200px;
+    display: flex;
+    border: 3px solid white;
+    align-items: center;
+    padding: 70px 0;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+}
+
+.ipt {
+    border-radius: 15px;
+    border: 3px solid white;
+    background-color: #212121;
+    padding: 15px 25px;
+    margin: 5px;
+    color: white;
+    margin-bottom: 5px;
+    align-items: center;    
+}
+
+.botao_login{
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: black;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+/* footer */
+
+.foo {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
