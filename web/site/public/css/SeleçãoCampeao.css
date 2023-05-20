@@ -28,7 +28,6 @@
     list-style: none;
     padding-right: 5%;
     justify-content: space-evenly;
-    /* width: 300px; */
     gap: 20px;
 }
 
@@ -53,6 +52,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    background-image: url(../img/TelaFundo.png);
+    height: 1000px;
 }
 
 .a {
